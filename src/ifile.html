@@ -1,0 +1,46 @@
+
+<tag><p>Free Tax Form (Fill In)</p></tag>
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Account Holder's Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Which Service do you require?</legend>
+<p><label> <input type="Individual" name="Individual" required value="https://1.0"> Individual</label></p>
+<p><label> <input type="Company" name="Company" required value="https://1.1"> Company</label></p>
+<p><label> <input type="Other" name="Other" required value="http://1.2">Other </label></p>
+</fieldset>
+
+<fieldset>
+<legend>FORM</legend>
+<p><label> <input type="checkbox" name="extras" value="email"> Email Login</label></p>
+<p><label> <input type="checkbox" name="extras" value="online"> Online Access </label></p>
+<p><label> <input type="checkbox" name="extras" value="mode"> FREE </label></p>
+</fieldset>
+
+<p>
+<label>Expected Date of Filing/Time
+<input type="datetime-local" name="delivery_time" required>
+</label>
+</p>
+	
+<p>
+<label>Filing Place/Zone
+<select id="delivery_place" name="delivery_place">
+<option value="" selected="selected">Press to Retire </option>
