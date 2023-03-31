@@ -18,11 +18,11 @@ function App() {
       <h2>
         Deployed with{' '}
         <a
-          href="https://mail.yahoo.com/"
+          href=""
           target="_blank"
           rel="noreferrer noopener"
         >
-          DSNX Contact
+          VERCEL
         </a>
         !
       </h2>
