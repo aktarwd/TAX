@@ -48,8 +48,7 @@ function App() {
         .
       </p>
       <br />
-      <h2>CONTACT : dsnx@yahoo.com RIGHTS: 
-522 C Khilgaon Dhaka-Bangladesh.current date :</h2>
+      <h2>CONTACT : dsnx@yahoo.com RIGHTS:ALL</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
