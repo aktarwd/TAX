@@ -1,4 +1,4 @@
-import React from 'react';
+Limport React from 'react';
 import { useEffect, useState } from 'react';
 import './App.css';
 
@@ -48,7 +48,8 @@ function App() {
         .
       </p>
       <br />
-      <h2>CONTACT :The date according to Go is:</h2>
+      <h2>CONTACT : dsnx@yahoo.com RIGHTS: 
+522 C Khilgaon Dhaka-Bangladesh.current date :</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
