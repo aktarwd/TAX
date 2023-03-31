@@ -14,15 +14,15 @@ function App() {
   }, []);
   return (
     <main>
-      <h1>Create React App + Go API</h1>
+      <h1>Contact : dsnx@yahoo.com</h1>
       <h2>
         Deployed with{' '}
         <a
-          href="https://vercel.com/docs"
+          href="https://mail.yahoo.com/"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Vercel
+          DSNX Contact
         </a>
         !
       </h2>
